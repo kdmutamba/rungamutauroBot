@@ -53,8 +53,7 @@ app.post('/new-message', function(req, res) {
   .then(response => {
     prettyJSON(response.data);
     var translation = response.data[0][0][0]
-    return   axios.post(/*'https://api.telegram.org/bot270485614:AAHfiqksKZ8WmR2zSjiQ7_v4TMAKdiHm9T0/sendMessage'*/
-                'https://api.telegram.org/botAPI_KEY/sendMessage', {
+    return   axios.post('https://api.telegram.org/botAPI_KEY/sendMessage', {
       chat_id: message.chat.id,
       text  : translation
     });
