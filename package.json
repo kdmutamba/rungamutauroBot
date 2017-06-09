@@ -1,0 +1,19 @@
+{
+  "name": "rungamutauro",
+  "version": "1.0.0",
+  "description": "rungamutauro",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "kd.mutamba@hotmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.16.1",
+    "base-64": "^0.1.0",
+    "base64-img": "^1.0.3",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2"
+  }
+}
